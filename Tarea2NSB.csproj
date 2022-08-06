@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\Multiplicar.cs" />
     <Compile Include="Clases\Restar.cs" />
     <Compile Include="Clases\Sumar.cs" />
     <Compile Include="Form1.cs">

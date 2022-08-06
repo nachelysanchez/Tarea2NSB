@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Tarea2NSB.Clases
 {
-    class Restar : Operacion
+    class Multiplicar : Operacion
     {
         public int operar(int v1, int v2)
         {
             valor1 = v1;
             valor2 = v2;
-            return resultado = valor1 - valor2;
+            return resultado = valor1 * valor2;
         }
     }
 }
