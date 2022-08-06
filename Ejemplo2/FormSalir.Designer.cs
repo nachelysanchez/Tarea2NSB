@@ -36,7 +36,7 @@ namespace Tarea2NSB
             // 
             this.SalirButton.BackColor = System.Drawing.Color.Gray;
             this.SalirButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SalirButton.Location = new System.Drawing.Point(683, 405);
+            this.SalirButton.Location = new System.Drawing.Point(460, 232);
             this.SalirButton.Name = "SalirButton";
             this.SalirButton.Size = new System.Drawing.Size(75, 33);
             this.SalirButton.TabIndex = 0;
@@ -49,7 +49,7 @@ namespace Tarea2NSB
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Cornsilk;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(576, 289);
             this.Controls.Add(this.SalirButton);
             this.Name = "FormSalir";
             this.Text = "FormSalir";

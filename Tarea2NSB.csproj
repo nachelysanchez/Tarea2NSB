@@ -56,10 +56,16 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Clases\Operacion.cs" />
-    <Compile Include="FormSalir.cs">
+    <Compile Include="Ejemplo2\RegistroFrm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalir.Designer.cs">
+    <Compile Include="Ejemplo2\RegistroFrm.Designer.cs">
+      <DependentUpon>RegistroFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejemplo2\FormSalir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejemplo2\FormSalir.Designer.cs">
       <DependentUpon>FormSalir.cs</DependentUpon>
     </Compile>
     <Compile Include="Principal.cs">
@@ -73,7 +79,10 @@
     <EmbeddedResource Include="Ejemplo1\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalir.resx">
+    <EmbeddedResource Include="Ejemplo2\RegistroFrm.resx">
+      <DependentUpon>RegistroFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejemplo2\FormSalir.resx">
       <DependentUpon>FormSalir.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
@@ -101,8 +110,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Ejemplo2\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
