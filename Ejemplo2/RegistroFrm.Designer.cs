@@ -161,15 +161,14 @@ namespace Tarea2NSB.Ejemplo2
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox valor2txt;
-        private System.Windows.Forms.TextBox restxt;
-        private System.Windows.Forms.TextBox Valor1txt;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         protected System.Windows.Forms.Button LimpiarButton;
         protected System.Windows.Forms.Button ModificarButton;
         protected System.Windows.Forms.Button GuardarButton;
+        protected System.Windows.Forms.TextBox valor2txt;
+        protected System.Windows.Forms.TextBox restxt;
+        protected System.Windows.Forms.TextBox Valor1txt;
+        protected System.Windows.Forms.Label label3;
+        protected System.Windows.Forms.Label label2;
+        protected System.Windows.Forms.Label label1;
     }
 }
