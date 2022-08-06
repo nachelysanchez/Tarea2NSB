@@ -21,5 +21,10 @@ namespace Tarea2NSB.Ejemplo2
         {
 
         }
+
+        private void DocentesForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

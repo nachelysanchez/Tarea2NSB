@@ -29,63 +29,93 @@ namespace Tarea2NSB
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.ejemplo1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ejemplo2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.calculadoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
+            this.DocentesButton = new System.Windows.Forms.Button();
+            this.EstudiantesButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.OperacionesButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // SalirButton
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ejemplo1ToolStripMenuItem,
-            this.ejemplo2ToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
+            this.SalirButton.Location = new System.Drawing.Point(452, 274);
+            this.SalirButton.Size = new System.Drawing.Size(106, 63);
             // 
-            // ejemplo1ToolStripMenuItem
+            // DocentesButton
             // 
-            this.ejemplo1ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.calculadoraToolStripMenuItem});
-            this.ejemplo1ToolStripMenuItem.Name = "ejemplo1ToolStripMenuItem";
-            this.ejemplo1ToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
-            this.ejemplo1ToolStripMenuItem.Text = "Ejemplo 1";
+            this.DocentesButton.BackColor = System.Drawing.Color.Gray;
+            this.DocentesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DocentesButton.Location = new System.Drawing.Point(308, 157);
+            this.DocentesButton.Name = "DocentesButton";
+            this.DocentesButton.Size = new System.Drawing.Size(106, 63);
+            this.DocentesButton.TabIndex = 13;
+            this.DocentesButton.Text = "Registro Docentes";
+            this.DocentesButton.UseVisualStyleBackColor = false;
+            this.DocentesButton.Click += new System.EventHandler(this.DocentesButton_Click);
             // 
-            // ejemplo2ToolStripMenuItem
+            // EstudiantesButton
             // 
-            this.ejemplo2ToolStripMenuItem.Name = "ejemplo2ToolStripMenuItem";
-            this.ejemplo2ToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
-            this.ejemplo2ToolStripMenuItem.Text = "Ejemplo 2";
+            this.EstudiantesButton.BackColor = System.Drawing.Color.Gray;
+            this.EstudiantesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EstudiantesButton.Location = new System.Drawing.Point(128, 157);
+            this.EstudiantesButton.Name = "EstudiantesButton";
+            this.EstudiantesButton.Size = new System.Drawing.Size(106, 63);
+            this.EstudiantesButton.TabIndex = 14;
+            this.EstudiantesButton.Text = "Registro Estudiantes";
+            this.EstudiantesButton.UseVisualStyleBackColor = false;
+            this.EstudiantesButton.Click += new System.EventHandler(this.EstudiantesButton_Click);
             // 
-            // contextMenuStrip1
+            // label1
             // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(60, 129);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(98, 21);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Ejemplo 2";
             // 
-            // calculadoraToolStripMenuItem
+            // label2
             // 
-            this.calculadoraToolStripMenuItem.Name = "calculadoraToolStripMenuItem";
-            this.calculadoraToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.calculadoraToolStripMenuItem.Text = "Calculadora";
-            this.calculadoraToolStripMenuItem.Click += new System.EventHandler(this.calculadoraToolStripMenuItem_Click);
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(60, 22);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(98, 21);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "Ejemplo 1";
+            // 
+            // OperacionesButton
+            // 
+            this.OperacionesButton.BackColor = System.Drawing.Color.Gray;
+            this.OperacionesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OperacionesButton.Location = new System.Drawing.Point(128, 59);
+            this.OperacionesButton.Name = "OperacionesButton";
+            this.OperacionesButton.Size = new System.Drawing.Size(116, 50);
+            this.OperacionesButton.TabIndex = 17;
+            this.OperacionesButton.Text = "Operaciones";
+            this.OperacionesButton.UseVisualStyleBackColor = false;
+            this.OperacionesButton.Click += new System.EventHandler(this.OperacionesButton_Click);
             // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
+            this.ClientSize = new System.Drawing.Size(582, 349);
+            this.Controls.Add(this.OperacionesButton);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.EstudiantesButton);
+            this.Controls.Add(this.DocentesButton);
             this.Name = "Principal";
             this.Text = "Principal";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.Load += new System.EventHandler(this.Principal_Load);
+            this.Controls.SetChildIndex(this.SalirButton, 0);
+            this.Controls.SetChildIndex(this.DocentesButton, 0);
+            this.Controls.SetChildIndex(this.EstudiantesButton, 0);
+            this.Controls.SetChildIndex(this.label1, 0);
+            this.Controls.SetChildIndex(this.label2, 0);
+            this.Controls.SetChildIndex(this.OperacionesButton, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -93,10 +123,10 @@ namespace Tarea2NSB
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem ejemplo1ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem calculadoraToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ejemplo2ToolStripMenuItem;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        protected System.Windows.Forms.Button DocentesButton;
+        protected System.Windows.Forms.Button EstudiantesButton;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        protected System.Windows.Forms.Button OperacionesButton;
     }
 }

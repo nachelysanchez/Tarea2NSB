@@ -90,6 +90,7 @@ namespace Tarea2NSB.Ejemplo2
             this.Controls.Add(this.label4);
             this.Name = "EstudiantesForm";
             this.Text = "EstudiantesForm";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.EstudiantesForm_FormClosed);
             this.Load += new System.EventHandler(this.EstudiantesForm_Load);
             this.Controls.SetChildIndex(this.SalirButton, 0);
             this.Controls.SetChildIndex(this.label1, 0);
