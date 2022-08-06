@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace Tarea2NSB
 {
-    public partial class Form1 : Form
+    public partial class Principal : Form
     {
-        public Form1()
+        public Principal()
         {
             InitializeComponent();
+        }
+
+        private void calculadoraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form1 operaciones = new Form1();
+            operaciones.Show();
         }
     }
 }

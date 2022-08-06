@@ -100,6 +100,7 @@ namespace Tarea2NSB
             this.SumarButton.TabIndex = 6;
             this.SumarButton.Text = "Sumar";
             this.SumarButton.UseVisualStyleBackColor = true;
+            this.SumarButton.Click += new System.EventHandler(this.SumarButton_Click);
             // 
             // RestarButton
             // 
@@ -109,6 +110,7 @@ namespace Tarea2NSB
             this.RestarButton.TabIndex = 7;
             this.RestarButton.Text = "Restar";
             this.RestarButton.UseVisualStyleBackColor = true;
+            this.RestarButton.Click += new System.EventHandler(this.RestarButton_Click);
             // 
             // MultiplicarButton
             // 
@@ -118,6 +120,7 @@ namespace Tarea2NSB
             this.MultiplicarButton.TabIndex = 8;
             this.MultiplicarButton.Text = "Multiplicar";
             this.MultiplicarButton.UseVisualStyleBackColor = true;
+            this.MultiplicarButton.Click += new System.EventHandler(this.MultiplicarButton_Click);
             // 
             // LimpiarButton
             // 
@@ -127,6 +130,7 @@ namespace Tarea2NSB
             this.LimpiarButton.TabIndex = 9;
             this.LimpiarButton.Text = "Limpiar";
             this.LimpiarButton.UseVisualStyleBackColor = true;
+            this.LimpiarButton.Click += new System.EventHandler(this.LimpiarButton_Click);
             // 
             // Form1
             // 
